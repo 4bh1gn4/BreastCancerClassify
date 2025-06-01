@@ -1,1 +1,3 @@
 # BreastCancerClassify
+Technologies: Java, CSV, PowerSchool, GitHub, Eclipse, KNN Algorithm, Machine Learning
+Description: Developed a Java-based breast cancer classifier using the K-Nearest Neighbors (KNN) algorithm to classify patient data as BENIGN or MALIGNANT. Implemented methods to calculate Euclidean distance, find the K-nearest neighbors, classify instances, and compute overall accuracy. Focused on building robust and efficient code without external libraries, relying on core Java features and class-based constants. This project demonstrates skills in algorithm implementation, data parsing, and software robustness through comprehensive testing and documentation.
