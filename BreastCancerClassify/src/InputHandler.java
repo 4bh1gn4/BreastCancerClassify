@@ -1,10 +1,5 @@
 
 /**
- * Name:
- * Period:
- * Project:
- * Date last updated:
- *
  * This class handles reading and writing test data from a file.
  *
  */
