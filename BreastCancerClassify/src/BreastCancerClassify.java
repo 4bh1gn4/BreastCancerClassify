@@ -1,22 +1,4 @@
-/**
- * Name:
- * Period: 
- * Project:
- * Date last updated: 
- * 
- * BreastCancerClassify contains the core implementation of the 
- * kNearestNeighbors algorithm to classify cell clumps as malignant
- * or benign. 
- * 
- * It is suggested that you work on the methods in the following order:
- * 	1) calculateDistance - once you finish this, you should see a
- * 	   graph of distances appear!
- * 	2) getAllDistances
- * 	3) findKClosestEntries
- * 	4) classify
- *  5) kNearestNeighbors (use your helpers correctly!)
- *  6) getAccuracy
- */
+
 public class BreastCancerClassify {
 	
 	public static final Integer K = 5;
@@ -48,8 +30,7 @@ public class BreastCancerClassify {
 	 * K closest distances in allDistances. Return an array of size K, 
 	 * that is filled with the indexes of the closest distances (not
 	 * the distances themselves). 
-	 * 
-	 * Be careful! This method can be tricky.
+	 *
 	 */
 	public static int[] findKClosestEntries(double[] allDistances)
 	{
@@ -96,10 +77,8 @@ public class BreastCancerClassify {
 	 * If 4 out of 5 outcomes were correctly predicted, the returned String should be: "80.00%"
 	 * If 3 out of 9 outcomes were correctly predicted, the returned String should be: "33.33%"
 	 * If 6 out of 9 outcomes were correctly predicted, the returned String should be: "66.67%"
-	 * Look up Java's String Formatter to learn how to round a double to two-decimal places.
-	 *
-	 * This method should work for any data set, given that the classification outcome is always
-	 * listed in the last column of the data set.
+
+	
 	 * @param: myResults: The predicted classifcations produced by your KNN model
 	 * @param: testData: The original data that contains the true classifications for the test data
 	 */
@@ -108,7 +87,7 @@ public class BreastCancerClassify {
 	}
 	
 	
-	//DO NOT MODIFY THE MAIN METHOD
+
 	public static void main(String[] args) {
 
 		int[][] trainData = InputHandler.populateData("./datasets/train_data.csv");
